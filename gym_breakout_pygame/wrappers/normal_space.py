@@ -44,7 +44,7 @@ class BreakoutNMultiDiscrete(BreakoutSkipper):
             for j in range(BricksNumbers[1]):
                 Tuples.append(2)
 
-        Tuples=tuple(Tuples)
+
 
 
 

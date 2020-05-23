@@ -656,6 +656,14 @@ class BreakoutState(object):
         end1 = self.ball.y > self.config.win_height - self.ball.radius
         end2 = self.brick_grid.is_empty()
         end3 = self._steps > self.config.horizon
+
+
+        if(end1):
+            print("end1")
+        if(end2):
+            print("end2")
+        if(end3):
+            print("end3")
         return end1 or end2 or end3
 
 
